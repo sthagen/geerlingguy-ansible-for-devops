@@ -1,16 +1,6 @@
 ---
-- src: geerlingguy.firewall
-- src: geerlingguy.git
-- src: geerlingguy.ruby
-- src: geerlingguy.nginx
-- src: geerlingguy.nodejs
-- src: geerlingguy.passenger
-- src: geerlingguy.docker
-- src: geerlingguy.pip
-- src: geerlingguy.ansible
 - src: geerlingguy.java
-- src: geerlingguy.jenkins
-
+- src: geerlingguy.nginx
 - src: geerlingguy.elasticsearch
   version: 4.1.0
 - src: geerlingguy.elasticsearch-curator
