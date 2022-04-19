@@ -2,7 +2,7 @@
 
 This project aims to make spinning up a simple local Apache Solr environment incredibly quick and easy, and to introduce users to the fast and powerful search engine behind some of the largest document collections on the Internet.
 
-It will install the following on a Ubuntu 16.04 Linux VM:
+It will install the following on a VM:
 
   - Java
   - Apache Solr
@@ -15,7 +15,7 @@ It should take 5-10 minutes to build or rebuild the VM from scratch on a decent 
 
   1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. Download and install [Vagrant](http://www.vagrantup.com/downloads.html).
-  3. [Mac/Linux only] Install [Ansible](http://docs.ansible.com/intro_installation.html).
+  3. [Mac/Linux only] Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 Note for Windows users: *This guide assumes you're on a Mac or Linux host. Windows hosts are unsupported at this time.*
 
@@ -29,7 +29,7 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
 
 ### 3 - Configure your host machine to access the VM.
 
-  1. [Edit your hosts file](http://www.rackspace.com/knowledge_center/article/how-do-i-modify-my-hosts-file), adding the line `192.168.66.66  solr.test` so you can connect to the VM.
+  1. [Edit your hosts file](http://docs.rackspace.com/support/how-to/modify-your-hosts-file/), adding the line `192.168.66.66  solr.test` so you can connect to the VM.
   2. Open your browser and access [http://solr.test:8983/solr/](http://solr.test:8983/solr).
 
 ## Notes

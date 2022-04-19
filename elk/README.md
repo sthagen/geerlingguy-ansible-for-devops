@@ -10,7 +10,7 @@ Logs are transmitted securely using a self-signed certificate (see the `elk-exam
 
   1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. Download and install [Vagrant](http://www.vagrantup.com/downloads.html).
-  3. [Mac/Linux only] Install [Ansible](http://docs.ansible.com/intro_installation.html).
+  3. [Mac/Linux only] Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
   4. Run `ansible-galaxy install -r requirements.yml` in this directory to get the required Ansible roles.
   5. Run `vagrant up` to build the VMs.
 
@@ -27,7 +27,7 @@ You need to modify your host machine's hosts file (Mac/Linux: `/etc/hosts`; Wind
 
 After that is configured, you could visit http://logs.test/ in a browser, and you'll see the Kibana dashboard, and you can visit http://web.test/, and you'll see Nginx's default index page.
 
-If you'd like additional assistance editing your hosts file, please read [How do I modify my hosts file?](http://www.rackspace.com/knowledge_center/article/how-do-i-modify-my-hosts-file) from Rackspace.
+If you'd like additional assistance editing your hosts file, please read [How do I modify my hosts file?](http://docs.rackspace.com/support/how-to/modify-your-hosts-file/) from Rackspace.
 
 ## Author Information
 

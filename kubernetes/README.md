@@ -8,7 +8,7 @@ This is an example Kubernetes cluster built and managed with Ansible. The exampl
 
   1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. Download and install [Vagrant](http://www.vagrantup.com/downloads.html).
-  3. [Mac/Linux only] Install [Ansible](http://docs.ansible.com/intro_installation.html).
+  3. [Mac/Linux only] Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 Note for Windows users: *This guide assumes you're on a Mac or Linux host. Windows hosts are unsupported at this time.*
 
@@ -23,7 +23,7 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
 
 ### 3 - Configure your host machine to access the VM.
 
-  1. [Edit your hosts file](http://www.rackspace.com/knowledge_center/article/how-do-i-modify-my-hosts-file), adding the line `192.168.84.3  cluster.k8s.test` so you can connect to the VM.
+  1. [Edit your hosts file](http://docs.rackspace.com/support/how-to/modify-your-hosts-file/), adding the line `192.168.84.3  cluster.k8s.test` so you can connect to the VM.
 
 ### 4 - Deploy applications to the Kubernetes cluster
 

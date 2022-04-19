@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 '''
 Example custom dynamic inventory script for Ansible, in Python.
@@ -7,11 +7,7 @@ Example custom dynamic inventory script for Ansible, in Python.
 import os
 import sys
 import argparse
-
-try:
-    import json
-except ImportError:
-    import simplejson as json
+import json
 
 class ExampleInventory(object):
 
@@ -30,7 +26,7 @@ class ExampleInventory(object):
         else:
             self.inventory = self.empty_inventory()
 
-        print json.dumps(self.inventory);
+        print(json.dumps(self.inventory));
 
     # Example inventory for testing.
     def example_inventory(self):
@@ -38,7 +34,7 @@ class ExampleInventory(object):
             'group': {
                 'hosts': ['192.168.28.71', '192.168.28.72'],
                 'vars': {
-                    'ansible_ssh_user': 'vagrant',
+                    'ansible_user': 'vagrant',
                     'ansible_ssh_private_key_file':
                         '~/.vagrant.d/insecure_private_key',
                     'ansible_python_interpreter':

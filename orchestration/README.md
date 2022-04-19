@@ -4,7 +4,7 @@ Ansible playbooks are flexible and powerful. But sometimes, you just need to run
 
 Just like the device in Ender's Game, the `ansible` command allows you to run commands or call Ansible modules immediately on one or one hundred of servers.
 
-This simple Vagrantfile configures three Virtual Machines using Vagrant and VirtualBox: `app1`, `app2`, and `db`, to emulate a small-scale real-world infrastructure (two application servers and a database server), so you can practice running `ansible` commands across them, and work on a flexible Ansible inventory.
+This project configures three Virtual Machines using Vagrant and VirtualBox: `app1`, `app2`, and `db`, to emulate a small-scale real-world infrastructure (two application servers and a database server), so you can practice running `ansible` commands across them, and work on a flexible Ansible inventory.
 
 ## Quick Start Guide
 
@@ -12,7 +12,7 @@ This simple Vagrantfile configures three Virtual Machines using Vagrant and Virt
 
   1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
   2. Download and install [Vagrant](http://www.vagrantup.com/downloads.html).
-  3. [Mac/Linux only] Install [Ansible](http://docs.ansible.com/intro_installation.html).
+  3. [Mac/Linux only] Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 Note for Windows users: *This guide assumes you're on a Mac or Linux host. Windows hosts are unsupported at this time.*
 
